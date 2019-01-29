@@ -1,0 +1,5 @@
+------------------------------------------
+1. Add platforms after cloning the repo
+------------------------------------------
+ - cordova platform add android@5.0 --save
+ - cordova platform add ios@10 --save

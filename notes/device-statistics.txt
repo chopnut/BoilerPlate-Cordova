@@ -1,0 +1,15 @@
+
+Device Statistics
+------------------------------------------
+Android : https://developer.android.com/about/dashboards/
+Recommendation: 
+ - Minimum: Lollipop Version 5.0 - API 21
+------------------------------------------
+iOS: https://david-smith.org/iosversionstats/
+More reference: https://stackoverflow.com/questions/15967143/where-can-i-find-ios-versions-statistics
+Recommendation:
+ - Minimum: iOS 10
+------------------------------------------
+
+Global Statistic
+http://gs.statcounter.com/os-market-share/mobile/worldwide
