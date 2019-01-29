@@ -1,5 +1,7 @@
 /node_modules/
 /front-end/node_modules/
-/www/
+/www/css/
+/www/js/
+/www/img/
 /platforms/
 /plugins/
