@@ -3,7 +3,7 @@ Device Statistics
 ------------------------------------------
 Android : https://developer.android.com/about/dashboards/
 Recommendation: 
- - Minimum: Lollipop Version 5.0 - API 21
+ - Minimum: Kitkat Version 4.4 - API 19
 ------------------------------------------
 iOS: https://david-smith.org/iosversionstats/
 More reference: https://stackoverflow.com/questions/15967143/where-can-i-find-ios-versions-statistics
@@ -13,3 +13,8 @@ Recommendation:
 
 Global Statistic
 http://gs.statcounter.com/os-market-share/mobile/worldwide
+
+// Cordova iOS Version support
+Cordova iOS 4.4.0+ supports iOS 9+
+Cordova iOS 4.0.0+ supports iOS 8+
+Cordova iOS 3.4.1+ supports iOS 6+
