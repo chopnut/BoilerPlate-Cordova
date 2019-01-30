@@ -1,9 +1,14 @@
 import "./src/scss/app.scss";
 
+// ReactJS 
 import React from "react";
 import ReactDOM from "react-dom";
 import Layout from "./src/react/Layout";
+import { Provider } from 'react-redux'
+import configureStore from './src/react/store';
 
+
+// Cordova
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
@@ -48,10 +53,9 @@ var app = {
       var dWidth = window.screen.width * window.devicePixelRatio;;
       var dHeight= window.screen.height * window.devicePixelRatio;
 
-
       // ---------------------------------------------------------
       // Render React
-      ReactDOM.render(<Layout />, document.getElementById("app"));
+      ReactDOM.render(<Provider store={configureStore([])}><Layout /></Provider>, document.getElementById("app"));
   }
 };
 
