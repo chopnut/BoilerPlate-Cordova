@@ -1,11 +1,16 @@
+// Main CSS
+
 import "./src/scss/app.scss";
 
 // ReactJS 
+
 import React from "react";
 import ReactDOM from "react-dom";
 import Layout from "./src/react/Layout";
 import { Provider } from 'react-redux'
 import configureStore from './src/react/store';
+
+// Libraries
 
 
 // Cordova
@@ -44,9 +49,7 @@ var app = {
 
   // Update DOM on a Received Event
   receivedEvent: function(id) {
-      var parentElement = document.getElementById(id);
-      console.log('Received Event: I am ready.' + id);
-
+      
       // ---------------------------------------------------------
       // Global Variable
 

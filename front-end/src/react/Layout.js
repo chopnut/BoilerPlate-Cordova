@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 class Layout extends Component {
   render() {
@@ -8,6 +9,9 @@ class Layout extends Component {
         Paypal Basic Test
       </div>
     </div>;
+  }
+  testPaypal(){
+    
   }
   componentDidMount(){
     console.log("DOM has been mounted");

@@ -5,19 +5,25 @@ Kiddo App Requirement
 - Device: Location API 
 - Device: Calendar API
 - Device: Push notifications
-- Google API
+- GoogleMap API
 - ReactJS - Victory Graph
+- Paypal Api -https://developer.paypal.com/docs/api/overview/
 
 
 //Required Access details  
 
-- Payment Gateway - Stripe CC
-- Paypal 
-- GreenID
-- SMS/Email (maybe through mailchimp as well)
-- Mailchimp
-- Ios developer account
+    - Payment Gateway - Stripe CC     
+OK  - Paypal                                            (using my own)
+    - GreenID
+    - Mailchimp/SMS/Email (maybe through mailchimp as well)
+    - Ios developer account
 
+-----------------------------------
+Kiddo App - Dev Plugin
+-----------------------------------
+ * cordova plugin add cordova-plugin-network-information
+    - detect internet connection on load:  https://github.com/apache/cordova-plugin-network-information
+  
 -----------------------------------
 Kiddo App - Page/Sections
 -----------------------------------
